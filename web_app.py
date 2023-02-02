@@ -1,18 +1,18 @@
-from flask import Flask
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "This is main page version 6"
+    return "Index Page"
 
 @app.route('/about')
 def about():
-    return "About page"
+    return "<h1> The About Page</h1>"
 
 @app.route('/user')
 def user():
     return "User page"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+   app.run(host="0.0.0.0")

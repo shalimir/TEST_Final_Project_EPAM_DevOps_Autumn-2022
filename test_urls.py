@@ -8,7 +8,7 @@ from web_app import app
 def test_main():
     client = app.test_client()
     client = client.get('/')
-    assert b'This is main page' in client.data
+    assert b'Index Page' in client.data
 
 def test_user():
     client = app.test_client()
@@ -18,4 +18,4 @@ def test_user():
 def test_about():
     client = app.test_client()
     client = client.get('/about')
-    assert b'About page' in client.data
+    assert b'<h1> The About Page</h1>' in client.data

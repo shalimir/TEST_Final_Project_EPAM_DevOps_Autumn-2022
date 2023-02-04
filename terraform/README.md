@@ -27,6 +27,7 @@ Then wait for dowloading (AWS) provider plugins
 
 ``` export AWS_ACCESS_KEY_ID=  ```
 ``` export AWS_SECRET_ACCESS_KEY_ID=   ```
+
 ![Screenshot_316](https://user-images.githubusercontent.com/123692654/216741232-8b9e22db-193a-499d-8801-12b0fb1679d9.png)
 ![Screenshot_317](https://user-images.githubusercontent.com/123692654/216741235-4555ed93-eacf-4628-bf5f-cec730d5ec80.png)
 ![Screenshot_318](https://user-images.githubusercontent.com/123692654/216741236-72ffbb34-f4cc-4417-9b74-7dcc2cfaf587.png)
@@ -49,4 +50,3 @@ Then wait for dowloading (AWS) provider plugins
 ![Screenshot_331](https://user-images.githubusercontent.com/123692654/216741404-a8f7cc2c-3876-4908-ac71-2d1bdfab9b90.png)
 ![Screenshot_332](https://user-images.githubusercontent.com/123692654/216741405-18e31934-74e8-460e-b265-db0750522776.png)
 ![Screenshot_333](https://user-images.githubusercontent.com/123692654/216741406-e7cf006f-a04c-4c59-9214-e34f707f73a6.png)
-
